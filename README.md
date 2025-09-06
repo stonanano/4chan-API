@@ -22,14 +22,14 @@ Data from the 4chan API is exclusively accessible from `a.4cdn.org`, via either 
 | [Thread endpoint](pages/Threads.md) | Documentation for the JSON representation of specific 4chan threads. |
 | [Thread list](pages/Threadlist.md) | Documentation for the board threadlist and its brief stats|
 
->[NOTE]
+[NOTE]
 >### API Rules ###
 
-1. Do not make more than one request per second. 
-2. Thread updating should be set to a minimum of 10 seconds, preferably higher.
-3. Use [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since) when doing your requests.
-4. Make API requests using the same protocol as the app. Only use SSL when a user is accessing your app over HTTPS.
->
+>1. Do not make more than one request per second. 
+>2. Thread updating should be set to a minimum of 10 seconds, preferably higher.
+>3. Use [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since) when doing your requests.
+>4. Make API requests using the same protocol as the app. Only use SSL when a user is accessing your app over HTTPS.
+
 ### API Terms of Service ###
 
 1. You may not use "4chan" in the title of your application, product, or service.
